@@ -5,7 +5,7 @@
 
 body {
   text-align: center;
-  width: 100vw;
+  width: 100%;
 }
 
 header {
@@ -123,59 +123,95 @@ height: 50px;
 }
 
 .displayTwo {
-  width: 1300px;
+  width: 80%;
   height: 500px;
   display:  flex;
-  justify-content: left;
+  /* flex-direction: column; */
+  /* justify-content: left; */
   background-image: url("../static_webpage/assets/chapter-11-the-mandalorian-single-hero-desktop_da2b0416.jpeg");
   margin-top: 25px;
-  margin-left: 110px;
+  /* margin-left: 110px; */
   padding-top: 100px;
   z-index: 100;
-  align-items: center;
+  align-items: left;
   background-size: cover;
-  align-items: flex-end;
+  /* align-items: flex-end;  */
+}
+
+.heiress_text {
+  justify-content: left;
+  height: 400px;
+  text-align: left;
+  padding: 0 40px;
+  /* margin-bottom: 200px; */
 }
 
 #parent {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row;*/
   justify-content: center;
-  height: 100px;
+  /* height: 100px; */
 }
-
 .image {
-  /* height: 330px; */
-  width: 800px;
-  /* background-size: cover; */
   display: flex;
-  justify-content: left;
-  text-align: center;
-  color: White;
-  /* font-family: Bodoni MT Black, Broadway; */
-  font-size: 25px;
-  padding: 15px 40px;
-  /* border-radius: 5px; */
-  margin: 5px;
+  flex-direction: row;
+  margin-right: 20px;
+  /* justify-content: start; */
+}
+
+.yoda_row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
   background-color: black;
+  margin: 0 60px 0 0;
+  /* box-sizing: border-box; */
+  /* padding: 0px 20px; */
 }
 
-#image {
-  background-image: url(../static_webpage/assets_starwars/spider_art.jpeg);
-  width: 50%;
+#baby_yoda {
+  width: 70%;
+  /* background-size: cover; */
+  /* display: flex;*/
+  /* height: 100%; */
+  justify-content: left; 
+  /* text-align: center; */
+  /* color: White; */
+  /* font-family: Bodoni MT Black, Broadway; */
+  /* font-size: 25px; */
+  /* padding: 15px 40px; */
+  /* border-radius: 5px; */
+  /* margin: 5px; */
+  /* background-image: url(../static_webpage/assets_star_wars/the-mandalorian-chapter-10-highlights-the-child-tall-3h_a60c2582.jpeg); */
+  /* width: 100px; */
 }
 
-.text {
-  /* width:  */
-  /* border: 15px solid black; */
-  opacity: 0.6;
-  background-origin: padding-box;
-  padding: 50px;
-  margin: 20px;
-  text-decoration-color: blanchedalmond;
+.episode_guide{
+  padding-bottom: 75px;
+
+}
+.image_2 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  justify-content: start; 
 }
 
 #secondImage {
-  background-image: url(../static_webpage/assets_star_wars/the-mandalorian-chapter-10-highlights-the-child-tall-3h_a60c2582.jpeg);
-  width: 50%;
+  /* height: 100%; */
+  width: 70%;
+  /* background-image: url(../static_webpage/assets_starwars/spider_art.jpeg); */
+  /* width: 50px */
+}
+
+.text {
+  width: 10%;
+  /* justify-content: center; */
+  /* border: 15px solid black; */
+  /* opacity: 0.6;
+  background-origin: padding-box; */
+  padding-left: 15px;
+  margin: 20px 20px;
+  color: blanchedalmond;
 }
