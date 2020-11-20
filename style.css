@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  width: 97%;
+  height: 75px;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.wrapper {
+  /* max-width: fit-content; */
+  margin: 0;
+  justify-content: left;
+}
+
+.external_links {
+  align-items: left;
+  width: 100%;
+}
+
+#facebook {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#instagram {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#tumbler {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#twitter {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#youtube {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form {
+  width: 205px;
+  height: 400px;
+  color: black;
+  padding: none;
+  align-content: flex-end;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  justify-content: right;
+  border-radius: 20px;
+  align-items: right;
+  text-align: center;
+  color: white;
+  background-color: darkslategray;
+  opacity: 0.5;
+  padding: 3;
+  font-size: 18px;
+}
+
+.logoContainer {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* .logo{
+width: 200px;
+height: 50px;
+} */
+
+.nav_bar {
+  text-decoration: none;
+  color: white;
+  border: 1px solid lightslategray;
+  padding: 15px;
+}
+
+.navigation_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5px;
+  height: 50px;
+  background-color: black;
+  border-style: solid;
+  border-color: lightslategray;
+}
+
+.background {
+  background-image: url("assets/background-stars-desktop_81342104.jpeg");
+  /* background-size: cover; */
+  background-repeat: repeat;
+}
+
+.display {
+  height: 500px;
+  background-image: url("assets/the-mandalorian-s2-single-hero-b-desktop_28751c8d.jpeg");
+  background-size: cover;
+  text-align: center;
+  padding: 150px;
+}
+
+.displayTwo {
+  width: 1300px;
+  height: 500px;
+  display:  flex;
+  justify-content: left;
+  background-image: url("../static_webpage/assets/chapter-11-the-mandalorian-single-hero-desktop_da2b0416.jpeg");
+  margin-top: 25px;
+  margin-left: 110px;
+  padding-top: 100px;
+  z-index: 100;
+  align-items: center;
+  background-size: cover;
+  align-items: flex-end;
+}
+
+#parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+}
+
+.image {
+  /* height: 330px; */
+  width: 800px;
+  /* background-size: cover; */
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  color: White;
+  /* font-family: Bodoni MT Black, Broadway; */
+  font-size: 25px;
+  padding: 15px 40px;
+  /* border-radius: 5px; */
+  margin: 5px;
+  background-color: black;
+}
+
+#image {
+  background-image: url(../static_webpage/assets_starwars/spider_art.jpeg);
+  width: 50%;
+}
+
+.text {
+  /* width:  */
+  /* border: 15px solid black; */
+  opacity: 0.6;
+  background-origin: padding-box;
+  padding: 50px;
+  margin: 20px;
+  text-decoration-color: blanchedalmond;
+}
+
+#secondImage {
+  background-image: url(../static_webpage/assets_star_wars/the-mandalorian-chapter-10-highlights-the-child-tall-3h_a60c2582.jpeg);
+  width: 50%;
+}
