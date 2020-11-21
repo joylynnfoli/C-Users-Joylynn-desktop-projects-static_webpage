@@ -5,20 +5,17 @@
 
 body {
   text-align: center;
-  /* width100%; */
 }
-
+  
 header {
   display: flex;
-  /* width: 97%; */
   height: 75px;
   justify-content: space-between;
   padding: 30px;
 }
 
 .wrapper {
-  /* max-width: fit-content; */
-  margin: 0;
+   margin: 0;
   justify-content: left;
 }
 
@@ -61,7 +58,6 @@ header {
   width: 205px;
   height: 400px;
   color: black;
-  /* background-color: darkslategray; */
   padding: none;
   align-content: flex-end;
 }
@@ -86,11 +82,6 @@ input {
   display: block;
 }
 
-/* .logo{
-width: 200px;
-height: 50px;
-} */
-
 .nav_bar {
   text-decoration: none;
   color: white;
@@ -111,7 +102,6 @@ height: 50px;
 
 .background {
   background-image: url("assets/background-stars-desktop_81342104.jpeg");
-  /* background-size: cover; */
   background-repeat: repeat-y;
 }
 
@@ -127,17 +117,13 @@ height: 50px;
   width: 1400px;
   height: 750px;
   display:  flex;
-  /* flex-direction: column; */
-  /* justify-content: left; */
-  background-image: url("../static_webpage/assets/chapter-11-the-mandalorian-single-hero-desktop_da2b0416.jpeg");
+  background-image: url("assets/chapter-11-the-mandalorian-single-hero-desktop_da2b0416.jpeg");
   margin-top: 25px;
-  /* margin-left: 110px; */
   padding-top: 20px;
   z-index: 100;
   align-items: left;
   background-size: cover;
-  /* align-items: flex-end;  */
-}
+  }
 
 .heiress_text {
   justify-content: left;
@@ -149,47 +135,28 @@ height: 50px;
 
 #parent {
   display: flex;
-  /* flex-direction: row;*/
   justify-content: center;
-  /* height: 100px; */
+  
 }
 .image {
   display: flex;
   flex-direction: row;
   margin-right: 10px;
-  /* justify-content: start; */
-}
+  }
 
 .yoda_row {
   display: flex;
   justify-content: center;
   width: 80%;
-  /* height: 70%; */
   background-color: black;
   margin: 25px 60px 0px 60px;
-  /* box-sizing: border-box; */
-  /* padding: 0px 20px; */
-}
+  }
 
 #baby_yoda {
   width: 60%;
-  /* background-size: cover; */
-  /* display: flex;*/
-  /* height: 100%; */
   justify-content: left; 
-  /* text-align: center; */
-  /* color: White; */
-  /* font-family: Bodoni MT Black, Broadway; */
-  /* font-size: 25px; */
-  /* padding: 15px 40px; */
-  /* border-radius: 5px; */
-  /* margin: 5px; */
-  /* background-image: url(../static_webpage/assets_star_wars/the-mandalorian-chapter-10-highlights-the-child-tall-3h_a60c2582.jpeg); */
-  /* width: 100px; */
 }
 
-/* .episode_guide{ */
-  /* padding-bottom: 50px; */
 
 .image_2 {
   display: flex;
@@ -199,10 +166,7 @@ height: 50px;
 }
 
 #secondImage {
-  /* height: 100%; */
   width: 68%;
-  /* background-image: url(../static_webpage/assets_starwars/spider_art.jpeg); */
-  /* width: 50px */
 }
 
 .text {
@@ -210,10 +174,6 @@ height: 50px;
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif white, Broadway;
   font-size: x-large;
-  /* justify-content: center; */
-  /* border: 15px solid black; */
-  /* opacity: 0.6;
-  background-origin: padding-box; */
   padding-left: 20px;
   padding-right: 15px;
   padding-top: 10px;
@@ -222,14 +182,9 @@ height: 50px;
 }
 .text1 {
   width: 75%;
-  /* font-weight: bolder; */
   font-family: Arial, Helvetica, sans-serif white, Broadway;
   font-size: 35px;
-  /* word-wrap: normal; */
   justify-content: center;
-  /* border: 15px solid black; */
-  /* opacity: 0.6;
-  background-origin: padding-box; */
   padding-left: 5px;
   margin: 0px 20px 0px 90px;
   color: white;
@@ -241,10 +196,6 @@ height: 50px;
   font-family: Arial, Helvetica, sans-serif white, Broadway;
   font-size: x-large;
   word-wrap: normal;
-  /* justify-content: center; */
-  /* border: 15px solid black; */
-  /* opacity: 0.6;
-  background-origin: padding-box; */
   padding-left: 5px;
   margin: 0px 17px 0px 15px;
   color: white;
@@ -256,10 +207,6 @@ height: 50px;
   font-family: Arial, Helvetica, sans-serif white, Broadway;
   font-size: x-large;
   word-wrap: normal;
-  /* justify-content: center; */
-  /* border: 15px solid black; */
-  /* opacity: 0.6;
-  background-origin: padding-box; */
   padding-left: 20px;
   margin: none;
   color: white;
@@ -296,7 +243,6 @@ height: 50px;
   border-style: inset;
   border-width: .5px;
   background-color: blue;
-  /* opacity: 0.5; */
   font-size: 18px;
   margin-right: 25px;
   padding: 3px
@@ -304,7 +250,6 @@ height: 50px;
 
 .explore {
   width: 200px;
-  /* height: 30px; */
   justify-content: center;
   border-radius: 20px;
   align-items: right;
@@ -312,8 +257,6 @@ height: 50px;
   color: white;
   border-width: .5px;
   background-color: black;
-  /* opacity: 0.5; */
-  /* padding: 3; */
   font-size: 18px;
 }
 
