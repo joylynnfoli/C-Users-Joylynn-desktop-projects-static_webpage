@@ -5,12 +5,12 @@
 
 body {
   text-align: center;
-  width: 100%;
+  /* width100%; */
 }
 
 header {
   display: flex;
-  width: 97%;
+  /* width: 97%; */
   height: 75px;
   justify-content: space-between;
   padding: 30px;
@@ -61,6 +61,7 @@ header {
   width: 205px;
   height: 400px;
   color: black;
+  /* background-color: darkslategray; */
   padding: none;
   align-content: flex-end;
 }
@@ -72,7 +73,7 @@ input {
   border-radius: 20px;
   align-items: right;
   text-align: center;
-  color: white;
+  color: darkslategray;
   background-color: darkslategray;
   opacity: 0.5;
   padding: 3;
@@ -111,7 +112,7 @@ height: 50px;
 .background {
   background-image: url("assets/background-stars-desktop_81342104.jpeg");
   /* background-size: cover; */
-  background-repeat: repeat;
+  background-repeat: repeat-y;
 }
 
 .display {
@@ -123,15 +124,15 @@ height: 50px;
 }
 
 .displayTwo {
-  width: 80%;
-  height: 500px;
+  width: 1400px;
+  height: 750px;
   display:  flex;
   /* flex-direction: column; */
   /* justify-content: left; */
   background-image: url("../static_webpage/assets/chapter-11-the-mandalorian-single-hero-desktop_da2b0416.jpeg");
   margin-top: 25px;
   /* margin-left: 110px; */
-  padding-top: 100px;
+  padding-top: 20px;
   z-index: 100;
   align-items: left;
   background-size: cover;
@@ -140,10 +141,10 @@ height: 50px;
 
 .heiress_text {
   justify-content: left;
-  height: 400px;
+  height: 200px;
   text-align: left;
-  padding: 0 40px;
-  /* margin-bottom: 200px; */
+  padding: 0 60px;
+  margin-top: 70px;
 }
 
 #parent {
@@ -155,23 +156,23 @@ height: 50px;
 .image {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
+  margin-right: 10px;
   /* justify-content: start; */
 }
 
 .yoda_row {
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 40%;
+  width: 80%;
+  /* height: 70%; */
   background-color: black;
-  margin: 0 60px 0 0;
+  margin: 25px 60px 0px 60px;
   /* box-sizing: border-box; */
   /* padding: 0px 20px; */
 }
 
 #baby_yoda {
-  width: 70%;
+  width: 60%;
   /* background-size: cover; */
   /* display: flex;*/
   /* height: 100%; */
@@ -187,31 +188,135 @@ height: 50px;
   /* width: 100px; */
 }
 
-.episode_guide{
-  padding-bottom: 75px;
+/* .episode_guide{ */
+  /* padding-bottom: 50px; */
 
-}
 .image_2 {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
+  margin-right: 5px;
   justify-content: start; 
 }
 
 #secondImage {
   /* height: 100%; */
-  width: 70%;
+  width: 68%;
   /* background-image: url(../static_webpage/assets_starwars/spider_art.jpeg); */
   /* width: 50px */
 }
 
 .text {
-  width: 10%;
+  width: 75%;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif white, Broadway;
+  font-size: x-large;
   /* justify-content: center; */
   /* border: 15px solid black; */
   /* opacity: 0.6;
   background-origin: padding-box; */
-  padding-left: 15px;
-  margin: 20px 20px;
-  color: blanchedalmond;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-top: 10px;
+  margin: 7px 10px;
+  color: rgb(238, 229, 216);
+}
+.text1 {
+  width: 75%;
+  /* font-weight: bolder; */
+  font-family: Arial, Helvetica, sans-serif white, Broadway;
+  font-size: 35px;
+  /* word-wrap: normal; */
+  justify-content: center;
+  /* border: 15px solid black; */
+  /* opacity: 0.6;
+  background-origin: padding-box; */
+  padding-left: 5px;
+  margin: 0px 20px 0px 90px;
+  color: white;
+}
+
+.text2 {
+  width: 75%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif white, Broadway;
+  font-size: x-large;
+  word-wrap: normal;
+  /* justify-content: center; */
+  /* border: 15px solid black; */
+  /* opacity: 0.6;
+  background-origin: padding-box; */
+  padding-left: 5px;
+  margin: 0px 17px 0px 15px;
+  color: white;
+}
+
+.text3 {
+  width: 75%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif white, Broadway;
+  font-size: x-large;
+  word-wrap: normal;
+  /* justify-content: center; */
+  /* border: 15px solid black; */
+  /* opacity: 0.6;
+  background-origin: padding-box; */
+  padding-left: 20px;
+  margin: none;
+  color: white;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 30px;
+  justify-content: right;
+  border-radius: 10px;
+  align-items: right;
+  /* text-align: center; */
+  /* color: blue; */
+  /* border-color: cornsilk; */
+  /* background-color: darkslategray; */
+  opacity: 0.80;
+  padding: 30px;
+  font-size: 22px;
+  margin-bottom: 100px;
+}
+
+.stream {
+  display: flex;
+  width: 200px;
+  /* height: 20px; */
+  justify-content: center;
+  border-radius: 20px;
+  /* align-items: baseline; */
+  text-align: center;
+  color: white;
+  border-color: white;
+  border-style: inset;
+  border-width: .5px;
+  background-color: blue;
+  /* opacity: 0.5; */
+  font-size: 18px;
+  margin-right: 25px;
+  padding: 3px
+}
+
+.explore {
+  width: 200px;
+  /* height: 30px; */
+  justify-content: center;
+  border-radius: 20px;
+  align-items: right;
+  text-align: center;
+  color: white;
+  border-width: .5px;
+  background-color: black;
+  /* opacity: 0.5; */
+  /* padding: 3; */
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: rgb(86, 136, 150);
 }
